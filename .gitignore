@@ -2,3 +2,6 @@
 **/.vscode
 **/env
 **/.DS_Store
+**/*.lst
+**/*.bin
+**/*.sym
