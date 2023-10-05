@@ -7,9 +7,9 @@ def calculate():
     global inputmode
     converting_value = float(converting.get())
     if inputmode == "miles":
-        converted.set(round(converting_value * 1.6))
+        converted.set(str(round(converting_value * 1.6)))
     else:
-        converted.set(round(converting_value / 1.6))
+        converted.set(str(round(converting_value / 1.6)))
 
 
 def swap():
